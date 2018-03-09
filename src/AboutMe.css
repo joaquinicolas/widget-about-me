@@ -1,58 +1,63 @@
-.widget {
-    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/79/55563061115a73c.jpg) no-repeat;
-    -webkit-background-size: 100%;
-    background-size: 100%;
-    background-color: #fff;
-    padding: 35px 30px;
-    margin-bottom: 40px;
-    padding: 35px 30px;
-    margin-bottom: 40px;
-    width: 360px;
+.aboutme {
+  background: url(http://demo.shapedtheme.com/kotha-pro-html/assets/images/about-me-bg.jpg) no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-color: #fff;
+  background-color: #fff;
+  padding: 35px 30px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 0 0 2px 0 rgba(51, 51, 51, 0.08);
+  box-shadow: 0 0 2px 0 rgba(51, 51, 51, 0.08), 0 0 2px 0 rgba(51, 51, 51, 0.08);
 }
 
-.text-center {
-    text-align: center;
+.aboutme>div.content {
+  padding-bottom: 13px;
 }
 
-.about-me-content {
-    padding-bottom: 13px;
+.aboutme>div.content>div {
+  padding-top: 8%;
 }
 
-.about-me-img {
-    padding-top: 8%;
+.aboutme>div.content>div>img {
+  display: inline-block;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  margin-top: 40px;
 }
 
-.about-me-img img {
-    display: inline-block;
-    border: 7px solid #fff;
-    border-radius: 50%;
-    margin-top: 40px;
+.aboutme>div.content>div>h2 {
+  margin-top: 12px;
+  margin-bottom: 22px;
+  color: #444;
+  font-size: 18px;
+  letter-spacing: 0.5px;
 }
 
-.about-me-content h2 {
-    margin-top: 12px;
-    margin-bottom: 22px;
-    color: #444;
-    font-size: 18px;
-    letter-spacing: 0.5px;
+.aboutme>div.content>div>p {
+  font-size: 15px;
+  line-height: 25px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
-.text-uppercase {
-    text-transform: uppercase;
+.aboutme>div.footerShared ul li {
+  padding: 0px;
 }
 
-p {
-    margin: 0 0 10px;
+.aboutme>div.footerShared ul li>a {
+  display: inline-block;
+  border: 1px solid #e2e2e2;
+  color: #aaaaaa;
+  font-size: 13px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  line-height: 28px;
+  margin-right: 6px;
 }
 
-.list-inline {
-    padding-left: 0;
-    margin-left: -5px;
-    list-style: none;
-}
-
-ol,
-ul {
-    margin-top: 0;
-    margin-bottom: 10px;
+.aboutme>div.footerShared ul li>a:hover {
+  background: #da521e;
+  border-color: #da521e;
+  color: #fff;
 }
