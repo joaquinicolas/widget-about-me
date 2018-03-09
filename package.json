@@ -1,6 +1,6 @@
 {
     "name": "about-me-plugin",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "about-me-plugin",
     "license": "MIT",
     "repository": "",
@@ -8,30 +8,22 @@
         "name": "Joaquin Noe",
         "email": "joako.n96@gmail.com"
     },
-    "keywords": [
-        ""
-    ],
-    "files": [
-        "lib"
-    ],
-    "main": "lib/index.js",
-    "typings": "lib/index.d.ts",
     "scripts": {
         "build": "rm -rf ./dist & webpack",
         "start": "rm -rf ./dist & webpack --config webpack.dev.js"
     },
     "dependencies": {
-        "react": "^16.2.0"
+        "react": "^15.6.2"
     },
     "devDependencies": {
         "@types/node": "^8.0.0",
-        "@types/react": "^16.0.38",
-        "@types/react-dom": "^16.0.3",
+        "@types/react": "^15.6.14",
+        "@types/react-dom": "^0.14.23",
         "awesome-typescript-loader": "^3.4.1",
         "bootstrap": "3.3.7",
         "css-loader": "^0.28.9",
         "font-awesome": "^4.7.0",
-        "react-dom": "^16.2.0",
+        "react-dom": "^15.6.2",
         "source-map-loader": "^0.2.3",
         "style-loader": "^0.20.1",
         "tslint": "^5.0.0",
@@ -40,20 +32,5 @@
         "typings-for-css-modules-loader": "^1.7.0",
         "webpack": "^3.10.0",
         "webpack-dev-server": "^2.11.1"
-    },
-    "engines": {
-        "node": ">=6.0.0"
-    },
-    "jest": {
-        "transform": {
-            ".(ts)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-        },
-        "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
-        "moduleFileExtensions": [
-            "ts",
-            "js"
-        ],
-        "testEnvironment": "node",
-        "mapCoverage": true
     }
 }

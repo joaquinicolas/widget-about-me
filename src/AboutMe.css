@@ -1,5 +1,5 @@
 .widget {
-    background: url(assets/images/about-me-bg.jpg) no-repeat;
+    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/79/55563061115a73c.jpg) no-repeat;
     -webkit-background-size: 100%;
     background-size: 100%;
     background-color: #fff;
@@ -7,6 +7,7 @@
     margin-bottom: 40px;
     padding: 35px 30px;
     margin-bottom: 40px;
+    width: 360px;
 }
 
 .text-center {

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import '../assets/AboutMe.css';
+import './AboutMe.css';
 
 export interface IProps {
     content: string;

@@ -142,8 +142,8 @@ var update = __webpack_require__(6)(content, options);
 if(content.locals) module.exports = content.locals;
 
 if(false) {
-	module.hot.accept("!!../node_modules/typings-for-css-modules-loader/lib/index.js??ref--2-1!./AboutMe.css", function() {
-		var newContent = require("!!../node_modules/typings-for-css-modules-loader/lib/index.js??ref--2-1!./AboutMe.css");
+	module.hot.accept("!!../node_modules/css-loader/index.js!./AboutMe.css", function() {
+		var newContent = require("!!../node_modules/css-loader/index.js!./AboutMe.css");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -177,17 +177,10 @@ exports = module.exports = __webpack_require__(5)(false);
 
 
 // module
-exports.push([module.i, "._117ya_me836KBazucFRT6r {\n    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/79/55563061115a73c.jpg) no-repeat;\n    -webkit-background-size: 100%;\n    background-size: 100%;\n    background-color: #fff;\n    padding: 35px 30px;\n    margin-bottom: 40px;\n    padding: 35px 30px;\n    margin-bottom: 40px;\n    width: 360px;\n}\n\n._1DBxRXdNO7NeKSJeuGIZlM {\n    text-align: center;\n}\n\n._2_evaDIZxFVmMdHvHuhLeb {\n    padding-bottom: 13px;\n}\n\n._3L4WvgyvS274gDy4054-EA {\n    padding-top: 8%;\n}\n\n._3L4WvgyvS274gDy4054-EA img {\n    display: inline-block;\n    border: 7px solid #fff;\n    border-radius: 50%;\n    margin-top: 40px;\n}\n\n._2_evaDIZxFVmMdHvHuhLeb h2 {\n    margin-top: 12px;\n    margin-bottom: 22px;\n    color: #444;\n    font-size: 18px;\n    letter-spacing: 0.5px;\n}\n\n._1HXMQS8n8sxBzPoOqJ0xEP {\n    text-transform: uppercase;\n}\n\np {\n    margin: 0 0 10px;\n}\n\n._1PKuLcm6W0wsj2UUXjE_CL {\n    padding-left: 0;\n    margin-left: -5px;\n    list-style: none;\n}\n\nol,\nul {\n    margin-top: 0;\n    margin-bottom: 10px;\n}", ""]);
+exports.push([module.i, ".widget {\n    background: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/09/79/55563061115a73c.jpg) no-repeat;\n    -webkit-background-size: 100%;\n    background-size: 100%;\n    background-color: #fff;\n    padding: 35px 30px;\n    margin-bottom: 40px;\n    padding: 35px 30px;\n    margin-bottom: 40px;\n    width: 360px;\n}\n\n.text-center {\n    text-align: center;\n}\n\n.about-me-content {\n    padding-bottom: 13px;\n}\n\n.about-me-img {\n    padding-top: 8%;\n}\n\n.about-me-img img {\n    display: inline-block;\n    border: 7px solid #fff;\n    border-radius: 50%;\n    margin-top: 40px;\n}\n\n.about-me-content h2 {\n    margin-top: 12px;\n    margin-bottom: 22px;\n    color: #444;\n    font-size: 18px;\n    letter-spacing: 0.5px;\n}\n\n.text-uppercase {\n    text-transform: uppercase;\n}\n\np {\n    margin: 0 0 10px;\n}\n\n.list-inline {\n    padding-left: 0;\n    margin-left: -5px;\n    list-style: none;\n}\n\nol,\nul {\n    margin-top: 0;\n    margin-bottom: 10px;\n}", ""]);
 
 // exports
-exports.locals = {
-	"widget": "_117ya_me836KBazucFRT6r",
-	"text-center": "_1DBxRXdNO7NeKSJeuGIZlM",
-	"about-me-content": "_2_evaDIZxFVmMdHvHuhLeb",
-	"about-me-img": "_3L4WvgyvS274gDy4054-EA",
-	"text-uppercase": "_1HXMQS8n8sxBzPoOqJ0xEP",
-	"list-inline": "_1PKuLcm6W0wsj2UUXjE_CL"
-};
+
 
 /***/ }),
 /* 5 */
@@ -750,4 +743,4 @@ module.exports = function (css) {
 
 /***/ })
 /******/ ])));
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=bundle.js.map
