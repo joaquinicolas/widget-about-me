@@ -14,3 +14,13 @@ lib_test
 src/
 __tests__/
 .vscode/
+dev/
+index.html
+package-lock.json
+README.md
+tslinth.json
+tsconfig.json
+webpack.config.js
+webpack.dev.js
+yarn.lock
+.editorconfig
